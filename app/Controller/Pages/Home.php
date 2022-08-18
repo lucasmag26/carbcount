@@ -13,7 +13,7 @@ class Home extends Page {
 
         // VIEW DA HOME
        $content =  View::render('pages/home', [
-            'name'=> 'Lucas Magno',
+            'name'        => 'Lucas Magno',
             'description' => 'Projeto TG'
             
         ]);
